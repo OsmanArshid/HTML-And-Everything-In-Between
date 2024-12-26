@@ -11,6 +11,6 @@ I want some practice
 
 ---
 ## Coming up
-**2nd play:** A CSS3 responsive page, for the love of coffee
+**2nd play:** A TailWind CSS e-commerce responsive page, for the love of shopping
 
 

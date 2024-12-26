@@ -1,0 +1,88 @@
+<main class = "p-[6px]">
+  <h1 class = "text-center text-lg text-green-600" > Hello World </h1>
+
+  <div class = "w-full bg-violet-300 border-violet-600 p-2 rounded-md my-4 border-2">
+    <p class = "text-center font-extrabold font-serif text-[20px]"> I am experimenting</p>
+  </div>
+
+
+  <!-- SO Layout Starts here --> 
+  
+  <!-- fixed --> 
+  <div class="fixed w-10 h-10 bg-red-800 top-0"> </div>
+
+  <!-- flex --> 
+  <div class = "flex justify-center gap-5">
+    <div class = "h-16 w-16 rounded-full bg-blue-500"></div>
+    <div class = "h-16 w-16 rounded-full bg-blue-500"></div>
+    <div class = "h-16 w-16 rounded-full bg-blue-500"></div>  
+  </div>
+
+  <!-- grid -->
+  <div class = "mt-4 gap-3 grid grid-cols-3">
+    <div class = "bg-violet-500 h-16"></div>
+    <div class = "bg-violet-500 h-16"></div>
+    <div class = "bg-violet-500 h-16"></div>
+  </div>
+
+  <!-- this part adjusts with the screen size -->
+  <div class = "mt-5"> 
+    <div class = "md:block hidden">
+      <p> this is me having fun > 768px </p>
+    </div>
+
+    <div class = "max-md:block hidden">
+      <p> this is me having fun < 768px </p>
+    </div>
+  </div>
+
+  <!-- Fancy stuff -->
+  <button class="bg-blue-400 px-4 py-2 rounded-lg my-4 hover:bg-blue-600 text-white focus:outline-none focus:ring focus:ring-blue-800 active:bg-blue-950">Click Me</button>
+
+  <ul class="my-2 space-y-1">
+    <li class = "bg-white first:bg-yellow-200 p-2">item 1</li>
+    <li class = "intense">item 2</li>
+    <li class = "intense">item 3</li>
+    <li class = "intense">item 4</li>
+    <li class = "intense">item 5</li>
+  </ul>
+
+  <!-- Dark Mode.... dark: -->
+  <div class="h-150 w-25 m-10 py-3 px-5 rounded-md bg-orange-200 shadow-2xl ring-1 ring-slate-400/5 dark:bg-black">
+    <h3 class = "text-base tracking-tight font-serif text-slate-700 dark:text-white">This is a heading im gonna look at</h3>
+    <p class = "mt-2 dark:text-white">This is the text im writing as a p-element</p>
+
+    <button 
+    id = "toggle"
+    class = "bg-blue-400 text-white p-2 py-2 px-4 mt-8 rounded-md text-sm font-semibold dark:text-cyan-50 dark:bg-green-400"
+    onclick="document.body.classList.toggle('dark')">
+    Toggle to Dark
+    </button>
+  </div>
+
+  <!-- Making custom styles --> 
+  <div>
+  <!-- just use [] to make something custom -->
+    <p class = "text-[#2045] ">This is a greyscale num 1</p> 
+
+  <!-- use "Config" to make something custom over entire project-->
+    <p class = "text-greyscale ">This is a greyscale num 2</p> 
+  </div>
+
+</main>
+
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggleDark = document.getElementById('toggleDark')
+    toggleDark.addEventListener('click', function() {
+      if(document.documentElement.classList.includes('dark')) {
+        document.documentElement.classList.remove('dark')
+      }
+      else {
+        document.documentElement.classList.add('dark')
+      }
+      alert("click!")
+    });
+  });
+</script>
