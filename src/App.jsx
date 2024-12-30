@@ -1,49 +1,50 @@
 import Hero from "./sections/Hero.jsx";
 import CustomerReviews from "./sections/CustomerReviews.jsx";
 import Footer from "./sections/Footer.jsx";
-import PopularProducts from "./constants/PopularProducts.jsx";
-import Services from "./constants/Services.jsx";  
-import SpecialOffer from "./constants/SpecialOffer.jsx";
-import Subscribe from "./constants/Subscribe.jsx";
-import SuperQuality from "./constants/SuperQuality.jsx";
+import PopularProducts from "./sections/PopularProducts.jsx";
+import Services from "./sections/Services.jsx";  
+import SpecialOffers from "./sections/SpecialOffers.jsx";
+import Subscribe from "./sections/Subscribe.jsx";
+import SuperQuality from "./sections/SuperQuality.jsx";
+import Nav from "./components/Nav.jsx";
 
-// curly braces not used because 
-// I am not going to write any 
+// curly braces not used because I am not going to write any 
 // functions or JavaScript code, just jsx
 const App = () => (
   // being in react, gotta use className instead of just class
   <main className="relative">
-    Nav
+    < Nav/>
+    
     <section className = "xl-padding-1 wide:padding-r padding-b ">
-      Hero
+      <Hero />
     </section>
     
     <section className="padding">
-      PopularProducts
+      <PopularProducts />
     </section>
 
     <section className="padding">
-      SuperQuality
+      <SuperQuality />
     </section>    
     
     <section className="padding-x py-10">
-      Services
+      <Services />
     </section>
 
     <section className="padding">
-      SpecialOffers
+      <SpecialOffers />
     </section>
 
     <section className="bg-pale-blue padding">
-      CustomerReviews
+      <CustomerReviews />
     </section>
 
     <section className="padding-x sm:py-32 py-16 w-full">
-      Subscribe
+      <Subscribe />
     </section>
 
     <section className="text-white bg-black padding-x padding-t pb-8">
-      Footer
+      <Footer />
     </section>
   </main>
 ); 
