@@ -40,7 +40,7 @@ A TailWind CSS fully responsive Single-Page Application (SPA) built with React, 
 
 To run the project, follow these steps:
 
-1. Clone the repository using `git clone`.
+1. Clone the repository.
 2. Install dependencies using `npm install` or `yarn install`.
 3. Start the development server using `npm run dev` or `yarn dev`.
    
