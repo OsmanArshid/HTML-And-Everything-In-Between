@@ -49,28 +49,32 @@ To run the project, follow these steps:
 
 **3rd play:**
 # 3D portfolio:
-Private Repo
-Link incoming...
+* Private Repo
+* Link incoming...
 
 ---
+
 **4th play:**
 # JuvoU:
 * Private Repo
 * https://www.juvoucreative.com/
 
 ---
+
 **5th play:**
-# AI-TakeOver Website:
-https://github.com/OsmanArshid/AI-TakeOver
-
----
-**6th play:**
 # Danish Azhar Portfolio:
-https://github.com/OsmanArshid/Portfolio-website2.0
+* Repo: https://github.com/OsmanArshid/Portfolio-website2.0
+* Site: https://danish-portfolio-website.vercel.app/
 
 ---
-**7th play:**
+
+**6th play:**
 # AAMZ Website:
-https://github.com/OsmanArshid/AAMZ-Security
+* Repo: https://github.com/OsmanArshid/AAMZ-Security
+* Site: https://www.aamzsecuritysolutions.com/
 
 ---
+
+**7th play:**
+# AI-TakeOver Website:
+* Repo: https://github.com/OsmanArshid/AI-TakeOver
