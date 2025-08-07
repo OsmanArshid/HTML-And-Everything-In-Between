@@ -45,4 +45,31 @@ To run the project, follow these steps:
 3. Start the development server using `npm run dev` or `yarn dev`.
    
 ---
+---
 
+# 3D portfolio:
+Private Repo
+Link incoming...
+
+---
+
+# JuvoU:
+Private Repo
+https://www.juvoucreative.com/
+
+---
+
+# AI-TakeOver Website:
+https://github.com/OsmanArshid/AI-TakeOver
+
+---
+
+# Danish Azhar Portfolio:
+https://github.com/OsmanArshid/Portfolio-website2.0
+
+---
+
+# AAMZ Website:
+https://github.com/OsmanArshid/AAMZ-Security
+
+---
